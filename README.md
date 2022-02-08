@@ -1,2 +1,2 @@
 # tech-blog
-Web page of a technology blog
+Web page of a fictitious technology blog made using CSS and HTML.
