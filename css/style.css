@@ -1,0 +1,129 @@
+/*Default formatting cleanup*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+     font-size: 1.1em;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     background: #e6e6e6;
+}
+/*
+****Layout****
+*/
+#area{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+.area-logo, area-menu{
+    padding: 10px;
+}
+
+#area-main{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-content{
+    width: 660px;
+    float: left;
+}
+
+
+#area-side{
+    width: 240px;
+    float: right;
+}
+
+.area-side-content{
+    background: #FFF;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+.area-side-content-categories{
+    padding: 5px;
+    margin: 10px;
+}
+
+#footer-area{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+.posts{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+.area-side-content-post{
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+
+
+
+/*
+****menu formatation****
+*/
+a{
+    text-decoration: none;
+    color: #f7b600;
+}
+
+a:link {
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area a:link, #area a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+#area a:hover{
+    color: #f7b600;
+    background: #FFF;
+}
+
+/*
+****General formatation****
+*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.white-color{
+    color:white;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+    margin: 10px;
+
+}
+.post-date{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.borders{
+    border-radius: 10px;
+}
